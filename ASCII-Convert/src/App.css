@@ -1,0 +1,44 @@
+@import url("@fontsource/quicksand");
+
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.animate-btn {
+  transition: all 0.3s ease;
+}
+
+.animate-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
+}
+
+.animate-result {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .p-5 {
+    padding: 2rem !important;
+  }
+}
+
+.result-text:hover {
+  background-color: #f1f3f5;
+}
