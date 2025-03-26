@@ -23,7 +23,7 @@ function Header() {
           }}
         >
           <MDBIcon fas icon="code-compare" className="me-2" />
-          <span className="brand-text">CharToASCII</span>
+          <span className="brand-text">ASCII Converter</span>
         </MDBNavbarBrand>
         <MDBTypography
           tag="small"
